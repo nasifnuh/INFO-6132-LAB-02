@@ -22,7 +22,7 @@ const Login = ({ navigation }) => {
     <Layout>
       <View style={styles.container}>
         <Image source={Logo} style={styles.image} />
-        <Text style={styles.title}>Expense Manager</Text>
+        <Text style={styles.title}>Expense Tracker</Text>
 
         <Formik
           initialValues={{

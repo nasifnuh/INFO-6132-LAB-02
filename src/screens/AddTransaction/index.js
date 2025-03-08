@@ -213,7 +213,7 @@ const AddTransaction = ({ route, navigation }) => {
               )}
 
               <Button
-                label="Add"
+                label="Add Transaction"
                 onPress={handleSubmit}
                 style={styles.addButton}
               />

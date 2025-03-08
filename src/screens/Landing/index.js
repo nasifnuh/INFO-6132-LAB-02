@@ -16,7 +16,7 @@ const Landing = () => {
       <View style={styles.container}>
         <View style={styles.content}>
           <Image source={Logo} style={styles.image} />
-          <Text style={styles.title}>Expense Manager</Text>
+          <Text style={styles.title}>Expense Tracker</Text>
           <Text style={styles.subTitle}>Track your expenses effortlessly!</Text>
         </View>
 
