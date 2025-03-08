@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     textAlign: "center",
     color: "#000000",
-    marginBottom: 30,
+    marginBottom: 44,
   },
   form: {
     gap: 24,

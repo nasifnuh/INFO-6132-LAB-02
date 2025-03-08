@@ -21,14 +21,13 @@ const Login = ({ navigation }) => {
   return (
     <Layout>
       <View style={styles.container}>
-        <BackButton style={styles.backButton} />
         <Image source={Logo} style={styles.image} />
-        <Text style={styles.title}>Welcome!</Text>
+        <Text style={styles.title}>Expense Manager</Text>
 
         <Formik
           initialValues={{
-            username: "admin",
-            password: "admin",
+            username: "",
+            password: "",
           }}
           validationSchema={validationSchema}
           onSubmit={async (values) => {

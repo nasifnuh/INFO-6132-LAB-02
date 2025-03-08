@@ -14,7 +14,7 @@ const Header = ({ navigation }) => {
   return (
     <View style={styles.header}>
       <TouchableOpacity
-        onPress={() => navigation.replace("Landing")}
+        onPress={() => navigation.replace("Login")}
         style={styles.logoutButton}
       >
         <MaterialIcons name="logout" size={16} color="white" />
